@@ -1,0 +1,4 @@
+#
+# system.prop for e610
+#
+ro.boot.selinux=disabled
