@@ -5,7 +5,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 PRODUCT_COPY_FILES := device/sample/etc/apns-full-conf.xml:system/etc/apns-conf.xml
 
 # Inherit device configuration
-$(call inherit-product, device/lge/e610/full_e610.mk)
+$(call inherit-product, device/lge/e610/device.mk)
 
 # Release name
 PRODUCT_RELEASE_NAME := OptimusL5
